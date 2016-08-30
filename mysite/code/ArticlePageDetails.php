@@ -24,7 +24,8 @@ class ArticlePageDetails extends Page {
 
         $photo -> getValidator()->setAllowedExtensions(['jpg', 'jpeg', 'gig', 'png']);
         $photo -> setFolderName('activity_photos');
-        $Photo.fill(700, 387);
+
+//        $photo->Fill(700, 387);
 
         return $fields;  
     }
